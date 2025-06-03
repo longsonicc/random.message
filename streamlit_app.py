@@ -42,7 +42,7 @@ if uploaded_file:
 
     # Menu options
     st.header("Was kann ich für dich tun?")
-    choice = st.radio(["Zufällige Nachricht eines bestimmten Mitglieds", "Zufällige Nachricht mit einem bestimmten Wort"])
+    choice = st.radio("Was willst du von mir, du Hurensohn?", ["Zufällige Nachricht eines bestimmten Mitglieds", "Zufällige Nachricht mit einem bestimmten Wort"])
 
     if choice == "Zufällige Nachricht eines bestimmten Mitglieds":
         selected_sender = st.selectbox("Wähle ein Mitglied", senders)
